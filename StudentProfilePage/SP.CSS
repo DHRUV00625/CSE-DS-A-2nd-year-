@@ -1,0 +1,64 @@
+body{
+    background-color: #eef8ff;
+}
+
+.name-box1{
+    padding: 20px;
+    width:300px;
+    height: 270px;
+    color: #7D53DE;
+    background-color:#78E3FD;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    font-family: Arial, Helvetica   , sans-serif;
+    margin: auto;
+}
+@font-face {
+    font-family: "Basheq";
+    src: url("C:\ABES FSD\StudentProfilePage\fonts\BasheqVintageDemoVersionRegular-ov13x.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+.the-title{
+    font-family: "Basheq Vintage - Demo Version", serif;
+    font-size:200% ;
+    display:flex;
+    justify-content: center;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #e7dfc6;
+    border-radius: 25px;
+    font-size: 16px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+button{
+    padding: 10px;
+    border: 1px solid #7D53DE;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 73px;
+    cursor: pointer;
+    background-color: #7D53DE;
+}
+button:active {
+    background-color: #927de6;  
+}
+.box2{
+    
+    padding: 20px;
+    width:300px;
+    height: 270px;
+    background-color: #78e3fd;
+    font-family:Arial, Helvetica, sans-serif;
+     border-radius: 30px;
+
+}
