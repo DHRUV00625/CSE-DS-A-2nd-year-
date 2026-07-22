@@ -32,7 +32,7 @@ textarea {
     border: 1px solid #e7dfc6;
     border-radius: 25px;
     font-size: 16px;
-
+resize: none;
 }
 form {
     display: flex;
@@ -53,9 +53,9 @@ button:active {
     background-color: #927de6;  
 }
 .box2{
-    
+    margin-top: 30px; 
     padding: 20px;
-    width:300px;
+    width:auto;
     height: 270px;
     background-color: #78e3fd;
     font-family:Arial, Helvetica, sans-serif;
