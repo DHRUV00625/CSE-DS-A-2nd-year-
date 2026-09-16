@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSD Assignment 1 quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1>FSD Assignment 1 quiz</h1>
+    
+    <form id="detailsForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Roll no.">Roll number:</label>
+        <input type="number" id="Roll" name="roll" required><br><br>
+
+        <label for="section">Section:</label>
+        <label><input type="radio" name="section" value="A" required> A</label>
+        <label><input type="radio" name="section" value="B" required> B</label>
+        <label><input type="radio" name="section" value="C" required> C</label><br><br>
+
+        <button type="submit" id="start">START QUIZ</button>
+    </form>
+    
+    <div id="questionsSection">
+        <h2>Questions</h2>
+        <form>
+            <ol>
+                <li>
+                    <p>What is the full form of html</p>
+                    <label><input type="radio" name="options" value="A" required> idk</label>
+                    <label><input type="radio" name="options" value="B"> what is even that</label>
+                    <label><input type="radio" name="options" value="C"> refer to option a</label>
+                    <label><input type="radio" name="options" value="D"> hyper text markup language</label><br><br>
+                </li>
+
+                <li>    
+                    <p> Which language is used to style web pages?</p>
+                    <label><input type="radio" name="q2" value="a"> HTML</label><br>
+                    <label><input type="radio" name="q2" value="b"> CSS</label><br>
+                    <label><input type="radio" name="q2" value="c"> SQL</label>
+                </li>
+
+                <li>
+                    <p> Which language adds interactivity to web pages?</p>
+                    <label><input type="radio" name="q5" value="a"> JavaScript</label><br>
+                    <label><input type="radio" name="q5" value="b"> XML</label><br>
+                    <label><input type="radio" name="q5" value="c"> JSON</label><br><br>
+                </li>    
+            </ol>
+        </form>
+    </div>
+
+   
+</body>
+</html>
