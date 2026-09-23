@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const fs = require('fs');
 
 // 1. Create and write to the file
@@ -35,7 +34,7 @@ fs.writeFile('sample.txt', 'Welcome to Full Stack Development', (err) => {
       });
     });
   });
-=======
+});
 const fs = require('fs');
 
 // 1. Create and write to the file
@@ -72,5 +71,4 @@ fs.writeFile('sample.txt', 'Welcome to Full Stack Development', (err) => {
       });
     });
   });
->>>>>>> 67ddca8ddcc8791dd03c6e0b08179083f0b42b23
 });
